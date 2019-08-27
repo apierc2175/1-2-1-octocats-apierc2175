@@ -1,0 +1,15 @@
+ul.authors {
+  display: none;
+}
+
+li.octocat {
+  float: left;
+  width: 31%;
+  padding: 5px;}
+
+img {
+  width: 100%;
+  content: "";
+  clear: both;
+  display: table;
+}
