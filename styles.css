@@ -9,16 +9,15 @@ ul.authors {
 }
 
 ul.authors img {
-  content: "";
-  clear: both;
-  display: table;
   border-radius: 5px;
+  display: inline-block !important;
 }
 
 li.octocat {
   float: left;
   width: 31%;
-  padding: 5px;}
+  padding: 5px;
+}
 
 li.octocat img {
   width: 100%;
