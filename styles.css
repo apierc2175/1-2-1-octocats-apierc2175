@@ -2,8 +2,15 @@
   list-style-type: none;
 }
 
+ul.authors li a {
+
+}
 .image-caption {
   text-align: right;
+}
+
+.image-caption a {
+  display: inline-block;
 }
 
 ul.authors {
@@ -43,16 +50,15 @@ li.octocat img {
 span {
   color: #5b5b60;
   font-family: sans-serif;
+  position: relative;
+  top: -5px;
 }
 
 span.image-number {
   color: #c8c9ca !important;
   float: left;
-  padding-right: 10%;
-  padding-top: 7px;
-  padding-bottom: 7px;
-  margin-top: 7px;
-  margin-bottom: 7px;
+  position: relative;
+  top: 10px;
 }
 
 span.image-number:before {
@@ -65,6 +71,10 @@ a {
   font-weight: bold;
 }
 
+.image-caption a {
+  position: relative;
+  top: -5px;
+}
 div.image-caption {
   border-bottom: 1px solid gray;
 }
