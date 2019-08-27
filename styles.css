@@ -12,8 +12,8 @@ ul.authors {
   padding: 5px; */
   padding-left: 0;
   display: inline-block;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 
 .authors a {
@@ -49,6 +49,10 @@ span.image-number {
   color: #c8c9ca !important;
   float: left;
   padding-right: 10%;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-top: 7px;
+  margin-bottom: 7px;
 }
 
 span.image-number:before {
