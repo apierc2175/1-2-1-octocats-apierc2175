@@ -3,7 +3,8 @@
 }
 
 ul.authors li a {
-
+  position: relative;
+  top: 4px;
 }
 .image-caption {
   text-align: right;
@@ -58,7 +59,7 @@ span.image-number {
   color: #c8c9ca !important;
   float: left;
   position: relative;
-  top: 10px;
+  top: 15px;
 }
 
 span.image-number:before {
