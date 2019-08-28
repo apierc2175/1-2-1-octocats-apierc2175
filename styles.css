@@ -11,7 +11,7 @@ ul.authors li a {
 }
 
 .image-caption a {
-  display: inline-block;
+  display: inline-block ;
 }
 
 ul.authors {
@@ -32,6 +32,11 @@ ul.authors {
 ul.authors img {
   border-radius: 5px;
   display: inline-block;
+}
+
+ul.authors li img {
+      height: 100%;
+      width: 100%;
 }
 
 li.octocat {
@@ -56,7 +61,7 @@ span {
 }
 
 span.image-number {
-  color: #c8c9ca !important;
+  color: #c8c9ca;
   float: left;
   position: relative;
   top: 15px;
@@ -76,6 +81,16 @@ a {
   position: relative;
   top: -5px;
 }
+
 div.image-caption {
   border-bottom: 1px solid gray;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+
+  border-top: 20px solid #f00;
 }
